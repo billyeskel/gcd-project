@@ -2,6 +2,11 @@
 * This is for the run_analysis.R code for the Course project for Coursera Johns Hopkins Getting and Cleaning Data course
 * Click on this link [run_analysis.R code](./run_analysis.R) for the code itself (or see the code in this repo)
 
+# Table of Contents
+* [Key data and how it is handled in the code](#key-data-and-how-it-is-handled-in-the-code)
+* [Walkthrough of the code](#walkthrough-of-the-code)
+* [Codebook](#codebook)
+
 # Key data and how it is handled in the code
 * The data is the Samsung Data (aka University of California at Irvine Human Activity Recognition data) 
   * The data is also often referred to as the "UCI HAR Dataset" 
@@ -57,3 +62,5 @@
 * **Section 9**: Melt (aka transpose or reshape) from a wide to a long data frame
 * **Section 10**: Summarize to get average of each variable for each activity and each participant
 
+# Codebook
+* See [codebook/md](./codebook)
