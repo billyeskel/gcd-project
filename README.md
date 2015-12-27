@@ -63,4 +63,4 @@
 * **Section 10**: Summarize to get average of each variable for each activity and each participant
 
 # Codebook
-* See [codebook.md](./codebook)
+* See [codebook.md](./codebook.md)
