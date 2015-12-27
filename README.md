@@ -2,7 +2,7 @@
 * This is for the run_analysis.R code for the Course project for Coursera Johns Hopkins Getting and Cleaning Data course
 * Click on this link [run_analysis.R code](./run_analysis.R) for the code itself (or see the code in this repo)
 
-# Key data for the code
+# Key data and how it is handled in the code
 * The data is the Samsung Data (aka University of California at Irvine Human Activity Recognition data) 
   * The data is also often referred to as the "UCI HAR Dataset" 
   * Details on the data are here [UCI HAR Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
