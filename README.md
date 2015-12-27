@@ -34,7 +34,7 @@
     * They are for pretty obtuse types of movement measurements that the code will try to make less obtuse through more descritive names
 * In case it is useful to anyone, here is a code that grabs this data from the web [grab_data.R](./grab_data.R)
 
-# Walkthrough of the code for which there are 10 sections
+# Walkthrough of the code 
 * Section 1: Libraries 
  * [Hmisc](https://cran.r-project.org/web/packages/Hmisc/index.html) for some data summaries 
  * [tidyr](https://cran.r-project.org/web/packages/tidyr/index.html) and [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) for data wrangling and some summarize by groups
