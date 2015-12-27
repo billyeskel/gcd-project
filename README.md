@@ -14,8 +14,10 @@
       * It is for 6 types of activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
       * These activities were recorded from 30 participants (on roughly 300-400 ocassions per participant)  
     * There are 2 raw data sets
-      * "test" data ```UCI HAR Dataset/test/X_test.txt``` which is created in the code as a data frame called ```test_data```
+      * "test" data ```UCI HAR Dataset/test/X_test.txt``` which is created in the code as a data frame called ```test_data``` 
+       * 2947 rows of activity ocassions across the 30 participants 
       * "train" data ```UCI HAR Dataset/train/X_train.txt``` which is created in the code as a data frame called ```train_data```
+       * 7352 rows of activity ocassions across the 30 participants 
   * Row labels for the raw data
     * Each row in the raw data is for a certain participant in the study doing a certain type of activity
       * Participant IDs
