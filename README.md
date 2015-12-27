@@ -10,12 +10,12 @@
 * The data is extensive but the code depends on just a handful of key files 
   * Raw data
     * Big Picture
-     * The data is 86 types of movement data as recorded from Samsung phones 
-     * It is for 6 types of activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
-     * ... as recorded from 30 participants (on roughly 300-400 ocassions per participant)  
+      * The data is 86 types of movement data as recorded from Samsung phones 
+      * It is for 6 types of activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
+      * These activities were recorded from 30 participants (on roughly 300-400 ocassions per participant)  
     * There are 2 raw data sets
-     * "test" data ```UCI HAR Dataset/test/X_test.txt``` which is created in the code as a data frame called ```test_data```
-     * "train" data ```UCI HAR Dataset/train/X_train.txt``` which is created in the code as a data frame called ```train_data```
+      * "test" data ```UCI HAR Dataset/test/X_test.txt``` which is created in the code as a data frame called ```test_data```
+      * "train" data ```UCI HAR Dataset/train/X_train.txt``` which is created in the code as a data frame called ```train_data```
   * Row labels for the raw data
     * Each row in the raw data is for a certain participant in the study doing a certain type of activity
       * Participant IDs
