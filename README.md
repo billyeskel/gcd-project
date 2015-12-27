@@ -6,7 +6,7 @@
 * The data is the Samsung Data (aka University of California at Irvine Human Activity Recognition data) 
   * The data is also often referred to as the "UCI HAR Dataset" 
   * Details on the data are here [UCI HAR Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-  * The code [run_analysis.R code](./run_analysis.R) assumes this data is in the working directory
+  * The code assumes this data is in the working directory
 * The data is extensive but the code depends on just a handful of key tables 
   * Raw data
     * "test" data ```UCI HAR Dataset/test/X_test.txt``` which is created in the code as a data frame called ```test_data```
