@@ -11,12 +11,12 @@
 
 # Overview
 * Data
-  * The data is 86 types of movement data as recorded from Samsung phones for 30 participants over various activities 
+  * The data is 86 types of movement measurements as recorded from Samsung phones for 30 participants over various activities 
    * There are 6 types of activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING)
    * These activities were recorded from 30 participants (on roughly 300-400 ocassions per participant)
-  * The movement measures of the activities are pretty obtuse but code will try to clarify with more descriptive variable names
+  * The movement measurements are pretty technical and obtuse but code will try to clarify with more descriptive variable names
 * Analysis
-  * Twist and turn various raw data files on movements, participants, and activities to get a tidy data set 
+  * Twist and turn various raw data files on movement measurements, participants, and activity types to get a tidy data set 
   * A lot of the twisting and turning is to label raw data sets that came with neither variable names nor row labels
   * Once the tidy data set has been created, do some summarizing within groups 
 
