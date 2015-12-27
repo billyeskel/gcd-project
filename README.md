@@ -1,6 +1,6 @@
 # How the Code Works 
-* This is for the [run_analysis.R code](./run_analysis.R) for the Course project for Coursera Johns Hopkins Getting and Cleaning Data course
-* Click on the link above [run_analysis.R code](./run_analysis.R) for the code itself 
+* This is for the __**run_analysis.R code**__ for the Course project for Coursera Johns Hopkins Getting and Cleaning Data course
+* Click on this link [run_analysis.R code](./run_analysis.R) for the code itself 
 
 # Key data for the code
 * The data is the Samsung Data (aka University of California at Irvine Human Activity Recognition data) 
