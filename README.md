@@ -30,6 +30,7 @@
   * Variables labels for the raw data
     * There are no variable names in the raw data  
     * Rather, the variable names are this file ```UCI HAR Dataset/features.txt```
+    * They are for pretty obtuse types of movement measurements that the code will try to make less obtuse through more descritive names
 * In case it is useful to anyone, here is a code that grabs this data from the web [grab_data.R](./grab_data.R)
 
 
