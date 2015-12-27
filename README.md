@@ -35,25 +35,25 @@
 * In case it is useful to anyone, here is a code that grabs this data from the web [grab_data.R](./grab_data.R)
 
 # Walkthrough of the code 
-* Section 1: Libraries 
+* **Section 1**: Libraries 
  * [Hmisc](https://cran.r-project.org/web/packages/Hmisc/index.html) for some data summaries 
  * [tidyr](https://cran.r-project.org/web/packages/tidyr/index.html) and [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) for data wrangling and some summarize by groups
  * [reshape2](https://cran.r-project.org/web/packages/reshape2/index.html) to convert from long to wide for tidy data and to apply summarize functions
-* Section 2: Create data frames for the raw data 
+* **Section 2**: Create data frames for the raw data 
  * test ```UCI HAR Dataset/test/X_test.txt``` 
  * train ```UCI HAR Dataset/train/X_train.txt``` 
-* Section 3: Create data frames for the labels
+* **Section 3**: Create data frames for the labels
  * Both the variable lables (types of measurements) 
  * And the row labels (participants and activity types)
-* Section 4: Organize the row labels 
-* Section 5: Apply the variable labels to the raw data 
+* **Section 4**: Organize the row labels 
+* **Section 5**: Apply the variable labels to the raw data 
  * Again, these are for 86 pretty obtuse types of movement measurements
  * The code will try to make less obtuse through more descritive names later on
-* Section 6: Apply the row labels to the raw data 
+* **Section 6**: Apply the row labels to the raw data 
  * After this we we know for each row of raw data the participant ID and the activity type for the activity ocassion of that row
-* Section 7: Combine test and train data
+* **Section 7**: Combine test and train data
  * Now that the test and train data frames have row and variable labels, combine test and train 
-* Section 8: Filter to just measurement variables that compute mean or std
-* Section 9: Melt (aka transpose or reshape) from a wide to a long data frame
-* Section 10: Summarize to get average of each variable for each activity and each participant
+* **Section 8**: Filter to just measurement variables that compute mean or std
+* **Section 9**: Melt (aka transpose or reshape) from a wide to a long data frame
+* **Section 10**: Summarize to get average of each variable for each activity and each participant
 
