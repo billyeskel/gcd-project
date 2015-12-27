@@ -21,6 +21,7 @@
   * Once the tidy data set has been created, do some summarizing within groups 
 
 # Walkthrough of the code 
+* This walkthrough is for the [run_analysis.R code](./run_analysis.R) 
 * **Section 1**: Libraries 
  * [Hmisc](https://cran.r-project.org/web/packages/Hmisc/index.html) for some data summaries 
  * [tidyr](https://cran.r-project.org/web/packages/tidyr/index.html) and [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html) for data wrangling and some summarize by groups
